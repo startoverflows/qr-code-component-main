@@ -11,13 +11,15 @@ body {
   font-family: "Outfit", sans-serif;
   display: flex;
   align-items: center;
+  justify-content: center;
   min-height: 100vh;
   background-color: var(--Lightgray);
 }
 
-.main-container {
+/* .main-container { */
+main {
   width: 375px;
-  margin: auto;
+  /* margin: auto; */
   background-color: var(--White);
   border-radius: 20px;
   padding: 20px;
@@ -33,7 +35,7 @@ body {
   padding: 0 20px;
 }
 
-.text-container h3 {
+.text-container h1 {
   font-weight: 700;
   font-size: 1.75rem;
   color: var(--Darkblue);
